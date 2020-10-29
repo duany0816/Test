@@ -20,5 +20,8 @@ export class ProductDetailsComponent implements OnInit {
       this.product= products[+params.get('productId')];
     } )
   }
+  notify(){
+     alert("1111");    
+  }
 
 }
